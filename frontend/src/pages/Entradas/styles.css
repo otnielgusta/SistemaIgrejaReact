@@ -1,0 +1,114 @@
+.container-entradas{
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.container-entradas .form-entradas{
+    width: 900px;
+   padding: 5%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 0 0 4px  #41414d;
+}
+
+.container-entradas .form-entradas h1{
+    color:#41414d;
+    margin-bottom: 32px;
+    font-size: 32px;
+}
+.container-entradas .form-entradas div{
+    margin-bottom: 15px;
+}
+.container-entradas .form-entradas div.inputs-entrada{
+    width: 100%;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.container-entradas .form-entradas div.inputs-entrada div{
+    margin: 0 auto;
+   
+    display: grid;
+    grid-template-columns:100px 300px repeat(2, 1fr);
+    align-items: center;
+    column-gap: 10px;
+    
+}
+.container-entradas .form-entradas label{
+    text-align: right;
+    margin-bottom: 16px;
+    color: #41414d;
+   
+    font-size: 16px;
+}
+
+.container-entradas .form-entradas select{
+    font-family: Arial, Helvetica, sans-serif;
+    
+   background-size: 20px;
+   background-position: right;
+   
+  /*Posição da imagem do background*/
+   padding-right: 10px;
+   
+
+    width: 100%;
+    height: 60px;
+    color: #333;
+    border: 1px solid #dcd6;
+    border-radius: 8px;
+    padding: 0 24px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.container-entradas .form-entradas input,
+.container-entradas .form-entradas select{
+    -moz-border-radius:8px;
+    -webkit-border-radius:8px;
+    box-shadow: 1px 1px 2px #333333;    
+    -moz-box-shadow: 1px 1px 2px #333333;
+    -webkit-box-shadow: 1px 1px 2px #333333;
+}
+
+.container-entradas .form-entradas input:hover,
+.container-entradas .form-entradas select:hover{
+    background: #ffffff; border:1px solid #41414d;
+}
+.container-entradas .form-entradas input{
+   
+    height: 60px;
+    color: #333;
+    border: 1px solid #dcd6;
+    border-radius: 8px;
+    padding: 0 24px;
+    margin-bottom: 10px;
+    
+}
+
+.container-entradas .form-entradas button.btn-inserir{
+    background-color: teal;
+}
+
+.container-entradas .form-entradas .botoes-entradas{
+    display: flex;
+    justify-content: space-between;
+       
+}
+
+.container-entradas .form-entradas .botoes-entradas button{
+    width: 150px;
+}
+
+.container-entradas .form-entradas .botoes-entradas a button{
+    width: 150px;
+}

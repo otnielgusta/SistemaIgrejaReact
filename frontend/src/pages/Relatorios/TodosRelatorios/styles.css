@@ -1,0 +1,93 @@
+.container-principal{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("../../../assets/fundo.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.container-principal .content-relatorios .opcoes{
+    width: 900px;
+    max-width: 900px;
+    height: 300px;
+    padding: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 15px;   
+}
+
+.container-principal .content-relatorios{
+    width: 900px;
+    max-width: 900px;
+   
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+  
+  
+   
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px 2px  #41414d
+
+}
+.container-principal .content-relatorios .btn-relatorio-diario{
+    width: 100%;
+    margin: auto;
+    padding: 0;
+    
+}
+.container-principal .content-relatorios .btn-relatorio-diario button{
+    background-color: teal;
+    margin: 0;
+    border-radius: 0;
+    transition: all 0.3s;
+    border: solid 2px teal;
+}
+
+.container-principal .content-relatorios .btn-relatorio-diario button:hover{
+    background-color: #fff;
+    color: teal;
+    border: solid 2px teal;
+}
+.container-principal .content-relatorios a{
+    background: transparent;
+    border: none;
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    
+}
+.container-principal .content-relatorios .animacao {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+  
+}
+.container-principal .content-relatorios .animacao .animacao-opcoes{
+   
+    width: 50%;
+    margin: auto;
+}
+
+.container-principal .content-relatorios .btn-entradas{
+   display: flex;
+   
+}
+
+.container-principal .content-relatorios .animacao .links{
+    color: teal;
+    text-decoration: none;
+    font-size: 24px;
+    transition: all 0.2s;
+}
+
+.container-principal .content-relatorios .animacao .links:hover{
+    opacity: 60%;
+}

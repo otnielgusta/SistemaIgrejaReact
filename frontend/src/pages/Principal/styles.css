@@ -1,0 +1,105 @@
+.container-principal{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-principal .content-principal .imagem{
+   width: 100%;
+   height: 200px;
+    
+   background: url(../../assets/logo.png);
+   background-color: #0080806e;
+    background-size: 350px ;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container-principal .content-principal .opcoes{
+    width: 900px;
+    max-width: 900px;
+    height: 300px;
+    padding: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 15px;   
+}
+
+.container-principal .content-principal{
+    width: 900px;
+    max-width: 900px;
+   
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+  
+  
+   
+   
+    box-shadow: 0 0 4px  #41414d;
+
+}
+.container-principal .content-principal .btn-relatorio-diario{
+    width: 100%;
+    margin: auto;
+    padding: 0;
+    
+}
+.container-principal .content-principal .btn-relatorio-diario button{
+    background-color: teal;
+    margin: 0;
+    border-radius: 0;
+    transition: all 0.3s;
+    border: solid 2px teal;
+}
+.container-principal .content-principal .btn-relatorio-diario button:hover{
+    background-color: #fff;
+    color: teal;
+}
+.container-principal .content-principal a{
+    background: transparent;
+    border: none;
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    
+}
+.container-principal .content-principal .animacao {
+  
+    text-align: center;
+  
+}
+.container-principal .content-principal .animacao .animacao-opcoes{
+   
+    width: 50%;
+    margin: auto;
+}
+
+.container-principal .content-principal .btn-entradas{
+   display: flex;
+   
+}
+.container-principal .content-principal a.btn-saidas{
+   
+    background-image: url("../../assets/SAIDAS.png");
+   
+}
+
+.container-principal .content-principal a.btn-relatorios{
+   
+    background-image: url("../../assets/RELATORIOS.png");
+   
+}
+
+.container-principal .content-principal .animacao .links{
+    color: teal;
+    text-decoration: none;
+    font-size: 24px;
+    transition: all 0.2s;
+}
+
+.container-principal .content-principal .animacao .links:hover{
+    opacity: 60%;
+}

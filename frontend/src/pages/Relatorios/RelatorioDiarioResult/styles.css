@@ -1,0 +1,56 @@
+.container-diario{
+    width: 100%;
+    height: 100vw;
+    display: flex;
+   
+    justify-content: center;
+    align-items: center;
+    background: url("../../../assets/fundo.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   /* background-color: rgb(40, 15, 61);*/
+}
+
+.container-diario .content-diario{
+   
+    background-color: #fff;
+    
+    box-shadow: 0 0 4px  #41414d;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.container-diario .content-diario .data{
+    text-align: center;
+    margin-bottom: 32px;
+    color:#41414d;
+}
+.container-diario .content-diario .entrada-saida{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.container-diario .content-diario .totais{
+    margin-top: 30px;
+}
+
+.container-diario .content-diario ul h1{
+    margin-bottom: 20px;
+    color:#41414d;
+}
+
+.container-diario .content-diario li{
+    display: flex;
+    
+   
+}
+
+.container-diario .content-diario li p{
+    margin-left: 5px;
+}
+

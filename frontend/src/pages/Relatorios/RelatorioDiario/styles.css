@@ -1,0 +1,90 @@
+.content-relatorio{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("../../../assets/fundo.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content-relatorio .form-relatorio-diario{
+    width: 600px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 20px;
+    
+    box-shadow: 0 0 4px  #41414d;
+}
+.content-relatorio .form-relatorio-diario h1{
+    font-size: 32px;
+    color: #41414d;
+}
+
+.content-relatorio .form-relatorio-diario div{
+    margin-top: 15px;
+}
+
+.content-relatorio .form-relatorio-diario .data-relatorio-diario{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+
+.content-relatorio .form-relatorio-diario .data-relatorio-diario label{
+    font-size: 18px;
+    margin-right: 5px;
+}
+.content-relatorio .form-relatorio-diario .data-relatorio-diario{
+
+}
+
+.content-relatorio .form-relatorio-diario .btn-relatorio-diario{
+    display: flex;
+    justify-content: space-between;
+}
+.content-relatorio .form-relatorio-diario input{
+    -moz-border-radius:8px;
+    -webkit-border-radius:8px;
+    box-shadow: 1px 1px 2px #333333;    
+    -moz-box-shadow: 1px 1px 2px #333333;
+    -webkit-box-shadow: 1px 1px 2px #333333;
+
+    height: 40px;
+    color: #333;
+    border: 1px solid #dcd6;
+    border-radius: 8px;
+    padding: 0 24px;
+    margin-bottom: 10px;
+}
+
+.content-relatorio .form-relatorio-diario .btn-relatorio-diario .btn-buscar{
+    background-color: teal;
+    
+}
+
+.content-relatorio .form-relatorio-diario .btn-relatorio-diario button{
+    transition: all 0.3s;
+}
+
+.content-relatorio .form-relatorio-diario .btn-relatorio-diario .btn-buscar:hover{
+    background-color: #fff;
+    color: teal;
+    border: solid 2px teal;
+}
+
+.content-relatorio .form-relatorio-diario .btn-relatorio-diario button:hover{
+    background-color: #fff;
+    color: #7159c1;
+    border: solid 2px #7159c1;
+}
+.content-relatorio .form-relatorio-diario .btn-relatorio-diario .btn-voltar-relatorio{
+   width: 50%;
+}
